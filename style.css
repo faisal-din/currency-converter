@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: linear-gradient(
+    45deg,
+    hsla(148, 89%, 78%, 1) 40%,
+    hsla(210, 81%, 22%, 1) 100%
+  ); */
+
+  background: linear-gradient(
+    90deg,
+    hsla(248, 21%, 15%, 1) 0%,
+    hsla(250, 14%, 61%, 1) 100%
+  );
+}
+.container {
+  background: linear-gradient(
+    90deg,
+    hsla(332, 53%, 82%, 1) 0%,
+    hsla(176, 57%, 89%, 1) 100%
+  );
+
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  min-width: 40vh;
+}
+form {
+  margin: 2rem 0 2rem 0;
+}
+
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.dropdowns i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.select-container {
+  background: #fff;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+.select-container img {
+  max-width: 2rem;
+}
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 2rem 0;
+}
+
+form button {
+  height: 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    hsla(279, 83%, 70%, 1) 0%,
+    hsla(321, 90%, 70%, 1) 100%
+  );
+}
